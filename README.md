@@ -10,7 +10,7 @@ Additional description about the project and its features.
 
 ## Built With
 
-- HTML, Javascript
+- HTML, Javascript and javascript
 
 ## Getting Started
 
@@ -36,10 +36,17 @@ no installations
 
 ## VIDEO
 
+## Authors 1
 
-## Authors
+👤 **Roshan Bajgain**
 
-👤 **Author**
+- GitHub: [@roshan-bajgain](https://github.com/roshan-bajgain)
+- Twitter: [@RoshanBajgain10](https://twitter.com/RoshanBajgain10)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/roshan-bazgain/)
+
+ ## Authors 2
+ 
+ 👤 **Mithi**
 
 - GitHub: [@githubhandle](https://github.com/Mithi-code)
 - Twitter: [@twitterhandle](https://twitter.com/LazyMithlesh)
