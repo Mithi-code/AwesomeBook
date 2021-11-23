@@ -4,24 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Awesome Book</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 <body>
     <header>
         <h1>Awesome Books</h1>
     </header>
-    <Section>
-            <div class="book-display">  
+    <section> 
+        <div id="books_display">
+            <!--books-->
         </div>
-        <div class="add-book">
-            <input type="text" id="text_title" placeholder="title">
-        </div> <br>
-        <div class="author">
-            <input type="text" id="text_author" placeholder="author">
-        </div> <br>
-        <button id="add">Add</button>
-    </Section>
+        <div id="add_book">
+            <div id="title">
+                <input type="text" id="text_title" placeholder="Title" aria-labelledby="title" maxlength="255" required/>
+            </div>
+            <br>
+            <div id="author">
+                <input type="text" id="text_author" placeholder="author" aria-labelledby="author" maxlength="255" required/>
+            </div>
+            <br>
+            <button id="add">Add</button>
+        </div>
+    </section>
     <script src="app.js"></script>
 </body>
 </html>
