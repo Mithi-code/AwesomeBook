@@ -43,7 +43,9 @@ const loadData = () => {
     books = JSON.parse(localStorage.getItem('books'));
     displayData(books);
   }
-  if (localStorage.getItem('num')) num = parseInt(localStorage.getItem('num'), 10);
+  if (localStorage.getItem('num')) {
+    num = parseInt(localStorage.getItem('num'), 10);
+  }
 };
 const saveData = () => {
   add.addEventListener('click', () => {
