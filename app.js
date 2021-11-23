@@ -117,5 +117,11 @@ const title = document.querySelector('.text_title');
 const author = document.querySelector('.text_author');
 const add = document.querySelector('.add');
 
-saveData();
+Libraries.loadData();
+ Libraries.displayData();
+add.addEventListener('click', () => {
+  Libraries.add(title.value, author.value);
+  title.value = '';
+  author.value = '';
+});
 
