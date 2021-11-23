@@ -1,4 +1,8 @@
+@font-face {
+  font-family: comic;
+  src: url("../fonts/ComicSansMS3.ttf");
+}
+  
 * {
-  padding: 5;
-  margin: 5;
+  font-family: comic, 'Times New Roman', Times, serif !important;
 }
