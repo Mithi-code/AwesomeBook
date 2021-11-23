@@ -2,15 +2,13 @@
 
 # AwesomeBook
 
-> Imaginary Dance project. A demo website for an imaginary Dance!
-
-![screenshot]()
+![screenshot](./app.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- HTML, Javascript and javascript
+- HTML, and javascript
 
 ## Getting Started
 
@@ -34,8 +32,6 @@ no installations
 
 [View Live Demo]()
 
-## VIDEO
-
 ## Authors 1
 
 👤 **Roshan Bajgain**
@@ -56,15 +52,13 @@ no installations
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/Mithi-code/AwesomeBook/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Original design idea by Cindy Shin in Behance https://www.behance.net/adagio07
 
 ## 📝 License
 
