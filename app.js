@@ -1,5 +1,5 @@
 class Libraries {
-  static books=[];
+  static books = [];
 
   static id = 0;
 
@@ -10,7 +10,7 @@ class Libraries {
     localStorage.setItem('books', JSON.stringify(this.books));
     localStorage.setItem('id', this.id);
     this.displayData(this.books);
-  }
+  };
   static displayData = () => {
     const container = document.querySelector('#books_display');
     let tmp = '';
@@ -27,7 +27,7 @@ class Libraries {
     container.innerHTML = tmp;
     const bookToRemove = document.querySelectorAll('.remove');
     bookToRemove.forEach(this.remove);
-  }
+  };
   static remove = (element) => {
     const id = parseInt(element.id, 10);
     const container = document.querySelector('#books_display');
@@ -46,16 +46,16 @@ class Libraries {
         }
       });
     });
-  }
-
+  };
 
   static loadData = () => {
     if (localStorage.getItem('books')) {
       this.books = JSON.parse(localStorage.getItem('books'));
       this.displayData();
     }
-    if (localStorage.getItem('id')) this.id = parseInt(localStorage.getItem('id'), 10);
-  }
+    if (localStorage.getItem('id'))
+      this.id = parseInt(localStorage.getItem('id'), 10);
+  };
 }
 
 const title = document.querySelector('#text_title');
@@ -65,7 +65,7 @@ const add = document.querySelector('#add');
 Libraries.loadData();
 Libraries.displayData();
 add.addEventListener('click', () => {
-Libraries.add(title.value, author.value);
-title.value = '';
-author.value = '';
+  Libraries.add(title.value, author.value);
+  title.value = '';
+  author.value = '';
 });
