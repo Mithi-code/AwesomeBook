@@ -2,8 +2,6 @@
 
 # AwesomeBook
 
-> Imaginary Dance project. A demo website for an imaginary Dance!
-
 ![screenshot](./app.png)
 
 Additional description about the project and its features.
