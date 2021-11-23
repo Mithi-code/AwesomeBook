@@ -104,18 +104,18 @@ static remove = (element) => {
 //     }
 //   });
 // };
-// static loadData = () => {
-//   if (localStorage.getItem('books')) {
-//     this.books = JSON.parse(localStorage.getItem('books'));
-//     this.displayData();
-//   }
-//   if (localStorage.getItem('id')) this.id = parseInt(localStorage.getItem('id'), 10);
-// }
-// }
+static loadData = () => {
+  if (localStorage.getItem('books')) {
+    this.books = JSON.parse(localStorage.getItem('books'));
+    this.displayData();
+  }
+  if (localStorage.getItem('id')) this.id = parseInt(localStorage.getItem('id'), 10);
+}
+}
 
-// const title = document.querySelector('.text_title');
-// const author = document.querySelector('.text_author');
-// const add = document.querySelector('.add');
+const title = document.querySelector('.text_title');
+const author = document.querySelector('.text_author');
+const add = document.querySelector('.add');
 
-// saveData();
+saveData();
 
