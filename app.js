@@ -67,7 +67,7 @@ Libraries.loadData();
 Libraries.displayData();
 
 add.addEventListener('click', () => {
-Libraries.add(title.value, author.value);
-title.value = '';
-author.value = '';
+  Libraries.add(title.value, author.value);
+  title.value = '';
+  author.value = '';
 });
