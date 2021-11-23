@@ -2,6 +2,7 @@
   font-family: comic;
   src: url("../fonts/ComicSansMS3.ttf");
 }
+
 * {
   font-family: comic, 'Times New Roman', Times, serif !important;
 }
