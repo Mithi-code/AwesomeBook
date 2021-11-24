@@ -17,14 +17,14 @@ header {
   display: none;
 }
 
-.bookList:nth-child(odd) {
-  background: #CCC
-}
-
 .bookList {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+}
+
+.bookList:nth-child(odd) {
+  background: #ccc;
 }
 
 .bookInfo {
@@ -58,7 +58,7 @@ span {
   padding: 30px;
 }
 
- h2 {
+h2 {
   padding: 20px;
   text-align: center;
 }
@@ -76,5 +76,4 @@ button {
 
 #add {
   margin-left: 100px;
-
 }
