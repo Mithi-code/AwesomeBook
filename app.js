@@ -17,12 +17,14 @@ class Libraries {
     let tmp = '';
     for (let i = 0; i < this.books.length; i += 1) {
       tmp += `
-      <div id="l${this.books[i].id}">
-          <div>${this.books[i].title}</div>
-          <div>${this.books[i].author}</div>
-          <button class = "remove" id="${this.books[i].id}">remove</button>
-          <hr>
-      </div>
+      <div id="l${this.books[i].id}" class='bookList'>
+                <div class='bookInfo'>
+                <div>"${this.books[i].title}"</div>
+                <span>by</span>
+                <div>${this.books[i].author}</div>
+                </div>
+                <button class = "remove" id="${this.books[i].id}">Remove</button>
+            </div>      
       `;
     }
     container.innerHTML = tmp;
@@ -70,4 +72,12 @@ add.addEventListener('click', () => {
   Libraries.add(title.value, author.value);
   title.value = '';
   author.value = '';
+});
+
+const div = document.querySelector('#books_display');
+const border = document.querySelector('.border');
+add.addEventListener('click', () => {
+  div.style.border = '1px solid #000000';
+  div.style.display = 'block';
+  border.style.display = 'block';
 });

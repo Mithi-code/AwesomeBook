@@ -8,7 +8,9 @@ Additional description about the project and its features.
 
 ## Built With
 
-- HTML, and javascript
+- HTML
+- CSS
+- Javascript
 
 ## Getting Started
 
