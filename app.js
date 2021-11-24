@@ -11,16 +11,19 @@ class Libraries {
     localStorage.setItem('id', this.id);
     this.displayData(this.books);
   };
+
   static displayData = () => {
     const container = document.querySelector('#books_display');
     let tmp = '';
     for (let i = 0; i < this.books.length; i += 1) {
       tmp += `
-      <div id="l${this.books[i].id}">
-          <div>${this.books[i].title}</div>
+      <div id="l${this.books[i].id}" class='bookList'>
+          <div class='bookInfo'>
+          <div>"${this.books[i].title}"</div>
+          <span>by</span>
           <div>${this.books[i].author}</div>
-          <button class = "remove" id="${this.books[i].id}">remove</button>
-          <hr>
+          </div>
+          <button class = "remove" id="${this.books[i].id}">Remove</button>
       </div>
       `;
     }
@@ -28,6 +31,7 @@ class Libraries {
     const bookToRemove = document.querySelectorAll('.remove');
     bookToRemove.forEach(this.remove);
   };
+
   static remove = (element) => {
     const id = parseInt(element.id, 10);
     const container = document.querySelector('#books_display');
@@ -64,8 +68,15 @@ const add = document.querySelector('#add');
 
 Libraries.loadData();
 Libraries.displayData();
+
 add.addEventListener('click', () => {
   Libraries.add(title.value, author.value);
   title.value = '';
   author.value = '';
 });
+
+const div = document.querySelector('#books_display');
+ add.addEventListener('click', () => {
+  div.style.border = '1px solid #000000';
+   div.style.display = 'block';
+ });
