@@ -76,8 +76,8 @@ add.addEventListener('click', () => {
 
 const div = document.querySelector('#books_display');
 const border = document.querySelector('.border');
- add.addEventListener('click', () => {
+add.addEventListener('click', () => {
   div.style.border = '1px solid #000000';
-   div.style.display = 'block';
-   border.style.display = 'block';
+  div.style.display = 'block';
+  border.style.display = 'block';
  });
