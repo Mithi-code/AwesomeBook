@@ -17,12 +17,14 @@ class Libraries {
     let tmp = '';
     for (let i = 0; i < this.books.length; i += 1) {
       tmp += `
-      <div id="l${this.books[i].id}">
-          <div>${this.books[i].title}</div>
-          <div>${this.books[i].author}</div>
-          <button class = "remove" id="${this.books[i].id}">remove</button>
-          <hr>
-      </div>
+      <div id="l${this.books[i].id}" class='bookList'>
+                <div class='bookInfo'>
+                <div>"${this.books[i].title}"</div>
+                <span>by</span>
+                <div>${this.books[i].author}</div>
+                </div>
+                <button class = "remove" id="${this.books[i].id}">Remove</button>
+            </div>      
       `;
     }
     container.innerHTML = tmp;
