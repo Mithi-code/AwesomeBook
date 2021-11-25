@@ -81,3 +81,27 @@ add.addEventListener('click', () => {
   div.style.display = 'block';
   border.style.display = 'block';
 });
+const linkList = document.querySelector('#link-list');
+const linkAddbook = document.querySelector('#link-addBooks');
+const linkContact = document.querySelector('#link-contact');
+const container1 = document.querySelector('#show-bookList');
+const container2 = document.querySelector('#addBooks');
+const container3 = document.querySelector('#contact');
+
+linkList.addEventListener('click', () => {
+  container1.style.display = 'block';
+  container2.style.display = 'none';
+  container3.style.display = 'none';
+});
+
+linkAddbook.addEventListener('click', () => {
+  container2.style.display = 'block';
+  container1.style.display = 'none';
+  container3.style.display = 'none';
+});
+
+linkContact.addEventListener('click', () => {
+  container3.style.display = 'block';
+  container2.style.display = 'none';
+  container1.style.display = 'none';
+});

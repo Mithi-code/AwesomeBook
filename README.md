@@ -3,6 +3,8 @@
 # AwesomeBook
 
 ![screenshot](./app.png)
+![screenshot](./app1.png)
+![screenshot](./app2.png)
 
 Additional description about the project and its features.
 
@@ -32,7 +34,7 @@ no installations
 
 ## LIVE DEMO
 
-[View Live Demo]()
+[View Live Demo](https://mithi-code.github.io/AwesomeBook/)
 
 ## Authors 1
 

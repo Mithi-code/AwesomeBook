@@ -7,17 +7,67 @@
   font-family: 'Poppins', sans-serif;
 }
 
-header {
-  text-align: center;
+body {
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
 }
 
-#books_display {
-  width: 70%;
-  margin: auto;
+header {
+  background-color: pink;
+  border: 1px solid black;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  padding: 10px;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+}
+
+.menu-list li {
+  margin: 20px;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#link-list {
+  border-right: 1px solid black;
+  padding-right: 30px;
+}
+
+#link-addBooks {
+  border-right: 1px solid black;
+  padding-right: 30px;
+}
+
+#time {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: #ffff;
+  font-size: 20px;
+  padding: 5px;
+}
+
+#show-bookList {
+  text-align: center;
   display: none;
 }
 
 .bookList {
+  border: 1px solid black;
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -53,8 +103,6 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 35%;
-  margin: auto;
   padding: 30px;
 }
 
@@ -65,15 +113,45 @@ h2 {
 
 input {
   outline: none;
+  width: 300px;
+  border-radius: 10px;
 }
 
 button {
-  width: 79px;
+  width: 89px;
   padding: 5px;
   border-right: 4px solid black;
   border-bottom: 4px solid black;
 }
 
 #add {
-  margin-left: 100px;
+  margin-left: 206px;
+}
+
+#contact {
+  display: none;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 35px 130px;
+}
+
+.contact-info p {
+  padding: 20px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+footer {
+  position: fixed;
+  padding: 30px;
+  bottom: 0;
+  width: 80%;
+}
+
+.copyright {
+  border: 1px solid black;
+  font-weight: 700;
+  padding: 15px;
+  color: #242424;
+  background-color: pink;
 }
