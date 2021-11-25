@@ -11,10 +11,11 @@ body {
   width: 80%;
   margin: auto;
   height: 100vh;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
 }
 
 header {
-  background-color: whitesmoke;
+  background-color: pink;
   border: 1px solid black;
   margin-top: 40px;
   display: flex;
@@ -33,12 +34,31 @@ h1 {
 
 .menu-list li {
   margin: 20px;
-  border-right: 1px solid black;
   padding: 5px;
 }
 
 a {
   text-decoration: none;
+  font-size: 20px;
+}
+
+#link-list {
+  border-right: 1px solid black;
+  padding-right: 30px;
+}
+
+#link-addBooks{
+  border-right: 1px solid black;
+  padding-right: 30px;
+}
+
+#time {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: #ffff;
+  font-size: 20px;
+  padding: 5px;
 }
 
 #show-bookList {
@@ -98,6 +118,7 @@ h2 {
 input {
   outline: none;
   width: 300px;
+  border-radius: 10px;
 }
 
 button {
@@ -115,14 +136,11 @@ button {
   display: none;
   font-size: 20px;
   font-weight: 300;
-}
-
-.contact-info {
-  padding: 50px;
+  margin: 35px 130px;
 }
 
 .contact-info p {
-  padding: 50px;
+  padding: 20px;
   font-weight: 600;
   font-size: 16px;
 }
@@ -138,6 +156,6 @@ footer {
   border: 1px solid black;
   font-weight: 700;
   padding: 15px;
-  color: #fff;
-  background-color: #242424;
+  color: #242424;
+  background-color: pink;
 }
