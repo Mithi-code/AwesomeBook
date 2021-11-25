@@ -76,14 +76,12 @@ add.addEventListener('click', () => {
 
 const div = document.querySelector('#books_display');
 const border = document.querySelector('.border');
- add.addEventListener('click', () => {
+add.addEventListener('click', () => {
   div.style.border = '1px solid #000000';
-   div.style.display = 'block';
-   border.style.display = 'block';
- });
-
+  div.style.display = 'block';
+  border.style.display = 'block';
+});
  // for nav-menu 
-
 const linkList = document.querySelector('#link-list');
 const linkAddbook = document.querySelector('#link-addBooks');
 const linkContact = document.querySelector('#link-contact');
@@ -108,8 +106,6 @@ linkContact.addEventListener('click', () => {
   container2.style.display = 'none';
   container1.style.display = 'none';
 });
-
 //time
-
-var dt = new Date();
-document.getElementById('time').innerHTML=dt;
+let dt = new Date();
+document.getElementById('time').innerHTML = dt;
