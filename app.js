@@ -81,7 +81,6 @@ add.addEventListener('click', () => {
   div.style.display = 'block';
   border.style.display = 'block';
 });
- // for nav-menu 
 const linkList = document.querySelector('#link-list');
 const linkAddbook = document.querySelector('#link-addBooks');
 const linkContact = document.querySelector('#link-contact');
@@ -106,6 +105,5 @@ linkContact.addEventListener('click', () => {
   container2.style.display = 'none';
   container1.style.display = 'none';
 });
-//time
-let dt = new Date();
+const dt = new Date();
 document.getElementById('time').innerHTML = dt;
