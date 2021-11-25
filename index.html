@@ -1,34 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Awesome Books</title>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
     <header>
-        <h1>Awesome Books</h1>
+      <h1>Awesome Books</h1>
+      <ul class="menu-list">
+        <li><a id="link-list" href="#show-bookList">List</a></li>
+        <li><a id="link-addBooks" href="#addBooks">Add New</a></li>
+        <li><a id="link-contact" href="#contact">Conatact</a></li>
+      </ul>
     </header>
-    <section> 
-        <h2>All Awesome Books</h2>
-        <div id="books_display">
-            <!--books-->
-        </div>
-        <div id="add_book">
-            <h2>Add a new Books</h2>
-            <div id="title">
-                <input type="text" id="text_title" placeholder="Title" aria-labelledby="title" maxlength="255" required/>
-            </div>
-            <br>
-            <div id="author">
-                <input type="text" id="text_author" placeholder="author" aria-labelledby="author" maxlength="255" required/>
-            </div>
-            <br>
-            <button id="add">Add</button>
-        </div>
+   <section>
+    <div id='time'></div>
+   </section>
+     <section id="show-bookList">
+      <h2>All awesome books</h2>
+      <div id="books_display">
+      </div>
     </section>
+    <section id="addBooks">
+      <div id="add_book">
+        <h2>Add a new book</h2>
+        <div id="title">
+          <input
+            type="text"
+            id="text_title"
+            placeholder="Title"
+            aria-labelledby="title"
+            maxlength="255"
+            required
+          />
+        </div>
+        <br />
+        <div id="author">
+          <input
+            type="text"
+            id="text_author"
+            placeholder="author"
+            aria-labelledby="author"
+            maxlength="255"
+            required
+          />
+        </div>
+        <br />
+        <button id="add">Add</button>
+      </div>
+    </section> 
+    <section id="contact">
+      <h2>Conatact Information</h2>
+      <div class="contact-info">
+      <h4>
+        Do you have any question or just want to say "hello"?<br />You can reach
+        out to us
+      </h4>
+      <p><span>.</span> Our phone number:- +917355100838<br> <span>.</span>Our e-mail:- mithlesh.9m@gmail.com<br> <span>.</span>Our
+        address:- #30 zyx street, country.</p>
+    </div>
+    </section>
+    <footer>
+      <p class="copyright">Copyright <span>...</span></p>
+    </footer>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

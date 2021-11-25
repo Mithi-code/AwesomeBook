@@ -76,7 +76,41 @@ add.addEventListener('click', () => {
 });
 
 const div = document.querySelector('#books_display');
+const border = document.querySelector('.border');
  add.addEventListener('click', () => {
   div.style.border = '1px solid #000000';
    div.style.display = 'block';
+   border.style.display = 'block';
  });
+
+ // for nav-menu 
+
+const linkList = document.querySelector('#link-list');
+const linkAddbook = document.querySelector('#link-addBooks');
+const linkContact = document.querySelector('#list-contact');
+const container1 = document.querySelector('#show-bookList');
+const container2 = document.querySelector('#addBooks');
+const container3 = document.querySelector('#contact');
+
+linkList.addEventListener('click', () => {
+  container1.style.display = 'block';
+  container2.style.display = 'none';
+  container3.style.display = 'none';
+});
+
+linkAddbook.addEventListener('click', () => {
+  container2.style.display = 'block';
+  container1.style.display = 'none';
+  container3.style.display = 'none';
+});
+
+linkContact.addEventListener('click', () => {
+  container3.style.display = 'unset';
+  container2.style.display = 'none';
+  container1.style.display = 'none';
+});
+
+//time
+
+var dt = new Date();
+document.getElementById('time').innerHTML=dt;
