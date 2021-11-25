@@ -3,6 +3,8 @@
 # AwesomeBook
 
 ![screenshot](./app.png)
+![screenshot](./app1.png)
+![screenshot](./app2.png)
 
 Additional description about the project and its features.
 
