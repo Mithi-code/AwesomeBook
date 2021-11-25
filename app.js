@@ -105,5 +105,3 @@ linkContact.addEventListener('click', () => {
   container2.style.display = 'none';
   container1.style.display = 'none';
 });
-const dt = new Date();
-document.getElementById('time').innerHTML = dt;

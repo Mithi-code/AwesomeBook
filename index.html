@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Awesome Books</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.0.2/build/global/luxon.min.js"></script>
   </head>
   <body>
     <header>
@@ -17,7 +18,9 @@
       </ul>
     </header>
    <section>
-    <div id='time'></div>
+    <div class="w-75 m-auto text-right p-10">
+      <span id="time"></span>
+  </div>
    </section>
      <section id="show-bookList">
       <h2>All awesome books</h2>
@@ -66,6 +69,12 @@
     <footer>
       <p class="copyright">Copyright <span>...</span></p>
     </footer>
+    <script>
+      let DateTime = luxon.DateTime;
+      let dt = DateTime.local();
+      const timeTag = document.querySelector('span');
+      timeTag.innerHTML = `${dt.toLocaleString(DateTime.DATETIME_MED) }`;
+  </script>
     <script src="app.js"></script>
   </body>
 </html>
