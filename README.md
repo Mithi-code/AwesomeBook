@@ -2,9 +2,9 @@
 
 # AwesomeBook
 
-![screenshot](./app.png)
-![screenshot](./app1.png)
-![screenshot](./app2.png)
+![screenshot](./image/app.png)
+![screenshot](./image/app1.png)
+![screenshot](./image/app2.png)
 
 Additional description about the project and its features.
 
