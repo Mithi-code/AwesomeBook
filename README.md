@@ -36,7 +36,13 @@ no installations
 
 [View Live Demo](https://mithi-code.github.io/AwesomeBook/)
 
-## Authors 1
+ 👤 **Mithi**
+
+- GitHub: [@githubhandle](https://github.com/Mithi-code)
+- Twitter: [@twitterhandle](https://twitter.com/LazyMithlesh)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mithlesh-kumar-564a97221/)
+
+## Collabarator
 
 👤 **Roshan Bajgain**
 
@@ -44,13 +50,7 @@ no installations
 - Twitter: [@RoshanBajgain10](https://twitter.com/RoshanBajgain10)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/roshan-bazgain/)
 
- ## Authors 2
- 
- 👤 **Mithi**
-
-- GitHub: [@githubhandle](https://github.com/Mithi-code)
-- Twitter: [@twitterhandle](https://twitter.com/LazyMithlesh)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mithlesh-kumar-564a97221/)
+ ## Authors
 
 ## 🤝 Contributing
 
